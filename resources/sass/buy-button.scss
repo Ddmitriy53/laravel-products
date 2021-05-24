@@ -1,0 +1,14 @@
+.buy-button {
+    display: flex;
+    align-items: flex-end;
+    &__title {
+        display: none;
+        font-family: 'Commissioner', sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #fff;
+        transition: .7s;
+        margin-left: 11px;
+    }
+}

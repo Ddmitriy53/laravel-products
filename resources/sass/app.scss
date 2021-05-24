@@ -1,0 +1,23 @@
+@import '~reset-css/reset';
+@import "../fonts/fonts";
+@import '~bootstrap/dist/css/bootstrap-grid';
+@import '~slick-carousel/slick/slick';
+@import '~swiper/swiper-bundle.min';
+@import '~@fancyapps/fancybox/dist/jquery.fancybox.min';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+@import 'header';
+@import 'order-button';
+@import 'category';
+@import 'category-top';
+@import 'category-description';
+@import 'ammunition';
+@import 'weapon';
+@import 'footer';
+@import 'modal';

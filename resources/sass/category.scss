@@ -1,0 +1,29 @@
+.category {
+    padding-top: 23px;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.more-link {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 22px 33px 19px 34px;
+    border-radius: 70px;
+    display: block;
+    &--white {
+        border: 2px solid #fff;
+    }
+    &--pink {
+        background: linear-gradient(0deg, #FF485A, #FF485A);
+    }
+}
+
+@media (min-width: 1900px) {
+    .category .container {
+        max-width: 1872px;
+    }
+}

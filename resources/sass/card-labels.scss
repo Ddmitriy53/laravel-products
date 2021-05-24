@@ -1,0 +1,19 @@
+.card-label {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 13px 6px 13px;
+    border-radius: 30px;
+    &--new {
+        background-color: #219653;
+    }
+    &--action {
+        background-color: #2F80ED;
+    }
+    &--sale {
+        background-color: #E02020;
+    }
+    &--top {
+        background-color: #FF8A00;
+    }
+}

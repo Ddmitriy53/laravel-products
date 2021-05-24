@@ -1,0 +1,36 @@
+.weapon-card__price {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    &-currency {
+        font-size: 16px;
+    }
+    &_color_gray {
+        color: #333333;
+    }
+    &_color_red {
+        color: #E02020;
+    }
+}
+
+.weapon-card__old-price {
+    color: #A7B0B5;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    width: fit-content;
+    &-currency {
+        font-size: 13px;
+    }
+    &:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #E02020;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
